@@ -14,4 +14,4 @@ Projeto para testar conhecimento básico em Spring Boot
 
 ## Objetivo
 1. Compile o projeto, caso tenha erros de compilação, resolva eles.
-2. Acessar o endpoint </hello> e modificá-lo para também retornar a data atual.
+2. Acessar o endpoint raíz e modificá-lo para também retornar a data atual.
