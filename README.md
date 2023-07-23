@@ -5,13 +5,16 @@ Projeto para testar conhecimento básico em Spring Boot
 - Java JDK;
 - Maven;
 
+## Compilar projeto
+- `./mvnw clean install`
+
 ## Subir projeto
-- `./mvnw clean`
-- `./mvnw spring-boot:run`
+- Modo normal: `./mvnw spring-boot:run`
+- Modo debug: `./mvnw spring-boot:run -Dagentlib:jdwp=transport=dt_socket,server=y,address=5005`
 
 ## Rodar teste
 - `./mvnw test`
 
 ## Objetivo
-1. Compile o projeto, caso tenha erros de compilação, resolva eles.
-2. Acessar o endpoint raíz e modificá-lo para também retornar a data atual.
+1. Compile o projeto, caso tenha erros de compilação ou de teste, resolva-os.
+2. Acessar o endpoint </hello>.
