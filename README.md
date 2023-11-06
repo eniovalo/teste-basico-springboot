@@ -10,7 +10,7 @@ Projeto para testar conhecimento básico em Spring Boot
 
 ## Subir projeto
 - Modo normal: `./mvnw spring-boot:run`
-- Modo debug: `./mvnw spring-boot:run -Dagentlib:jdwp=transport=dt_socket,server=y,address=5005`
+- Modo debug: `./mvnw spring-boot:run -Dspring-boot.run.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005"`
 
 ## Rodar teste
 - `./mvnw test`
